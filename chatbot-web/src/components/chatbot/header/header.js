@@ -1,0 +1,24 @@
+import './header.css';
+
+import AppBar from '@mui/material/AppBar';
+import Box from '@mui/material/Box';
+import Toolbar from '@mui/material/Toolbar';
+import Typography from '@mui/material/Typography';
+import Avatar from '@mui/material/Avatar';
+
+function HeaderChatBot() {
+  return (
+    <Box sx={{ flexGrow: 1 }}>
+      <AppBar position="static">
+        <Toolbar variant="dense">
+          <Avatar alt="Remy Sharp" src="/xaropinho.png" />
+          <Typography variant="h6" color="inherit" component="div">
+            Xaropinho Bot
+          </Typography>
+        </Toolbar>
+      </AppBar>
+    </Box>
+  );
+}
+
+export default HeaderChatBot;
