@@ -7,49 +7,51 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Xaropinho</title>
     <link rel="stylesheet" type="text/css" href="./Xaropinho.css">
+    <link rel="stylesheet" type="text/css" href="./chat-header.css">
 </head>
 
 <body>
-    <header class="barra-superior">
-        <div class="TUDO">
-            <div class="chat">
-                <div class="topo">
-                    <h1 class="XaropinhoBOT">
-                        Xaropinho BOT
-                    </h1>
+    
+    <header class="header">
+        <img class="profile-image" src="xaropinho.png" alt="">
 
-                    <div>
-                        <img class="foto" src="xaropinho.png" alt="">
-                        <div class="online">
-                            <h1 class="Online">
-                                online
-                            </h1>
-                        </div>
-                    </div>
-
-
-                </div>
-
-
-
-                <div class="corpo&MágicaDoReact">
-
-                </div>
-
-                <div class="inferior">
-                    <form class="input" action="" method="post">
-                        <div>
-                            <input type="text " id="Mensagem " style="width: 500px; " />
-                        </div>
-                        <div class="botaoEnvio ">
-                            <button type="submit ">Enviar</button>
-                        </div>
-                    </form>
-
-                </div>
+        <div class="column">
+            <h1 class="title">
+                Xaropinho BOT
+            </h1>
+            <div class="online">
+                <div class="online-icon"></div>
+                <h1 class="online-text">online</h1>
             </div>
         </div>
+        
     </header>
+
+    <div class="chat-body">
+        <div class="container-mensagem">
+            <div>
+                <p class="mensagem">Texto de exemplo</p>
+            </div>     
+        </div>
+        <div class="container-mensagem">
+            <div class="enviado">
+                <p class="mensagem">Texto de exemplo</p>
+            </div>     
+        </div>
+        <div class="container-mensagem">
+            <div>
+                <p class="mensagem">Texto de exemplo</p>
+            </div>     
+        </div>
+        
+        <div class="mensagem enviado">texto enviado de exemplo</div>    
+
+    </div>
+
+    <div class="chat-input">
+        <input type="text" />
+        <button type="submit ">Enviar</button>
+    </div>
 </body>
 
 </html>
