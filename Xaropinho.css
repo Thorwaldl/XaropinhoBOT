@@ -6,7 +6,7 @@ header {
 }
 
 .chat-body{
-    background-color: aquamarine;
+    background-color: #c9daff;
 }
 
 .TUDO {
@@ -39,7 +39,7 @@ header {
 }
 
 .mensagem{
-    background-color: blueviolet;
+    background-color: white;
     padding: 12px;
     margin: 12px;
     width: fit-content;
