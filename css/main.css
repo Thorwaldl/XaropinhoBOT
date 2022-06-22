@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,500;0,700;1,500&display=swap');
+
+html,
+body,
+header {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.chatbot-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient( rgb(255, 224, 184), rgb(255, 190, 104));
+    height: 100%;
+    width: 100%;
+}
+
+.chatbot-box {
+    display: flex;
+    flex-direction: column;
+}

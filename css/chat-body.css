@@ -1,0 +1,39 @@
+.chat-body{
+    background-color: #c9daff;
+    max-height: clamp(280px, 380px, 800px);
+    overflow: auto;
+}
+
+.container-mensagem{
+    width: 100%;
+}
+
+.mensagem{
+    background-color: white;
+    padding: 12px;
+    margin: 12px;
+    width: fit-content;
+    max-width: 260px;
+    text-align: jus;
+}
+
+.recebido{
+    justify-content: flex-start;
+}
+
+.recebido .mensagem{
+    border-radius: 12px 12px 12px 0px
+}
+
+.enviado{
+    justify-content: flex-end;
+
+}
+
+.enviado .mensagem {
+    border-radius: 12px 12px 0px 12px;
+}
+
+.container-mensagem{
+    display: flex;
+}
