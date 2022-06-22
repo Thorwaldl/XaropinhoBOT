@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,500;0,700;1,500&display=swap');
+
+html,
+body,
+header {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.chatbot-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient( rgb(221, 155, 69), rgb(255, 190, 104));
+}
+
+.chatbot-box {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.chat-body{
+    background-color: #c9daff;
+    max-height: clamp(280px, 380px, 800px);
+    overflow: auto;
+}
+
+.input {
+    position: relative;
+    top: 40px;
+    margin-left: 100px;
+}
+
+.botaoEnvio {
+    position: relative;
+    top: -21px;
+    margin-left: 520px;
+}
+
+
+.XaropinhoBOT {
+    position: relative;
+    top: 100px;
+    margin-left: 140px;
+}
+
+.container-mensagem{
+    width: 100%;
+}
+
+.mensagem{
+    background-color: white;
+    padding: 12px;
+    margin: 12px;
+    width: fit-content;
+    max-width: 260px;
+    text-align: jus;
+}
+
+.recebido{
+    justify-content: flex-start;
+}
+
+.recebido .mensagem{
+    border-radius: 12px 12px 12px 0px
+}
+
+.enviado{
+    justify-content: flex-end;
+
+}
+
+.enviado .mensagem {
+    border-radius: 12px 12px 0px 12px;
+}
+
+.container-mensagem{
+    display: flex;
+}

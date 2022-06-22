@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+
+.footer-chat {
+    background-color: rgb(9, 4, 20);
+    padding: 12px;
+    border-bottom-left-radius: 24px;
+    border-bottom-right-radius: 24px;
+}
+
+.text-input { 
+    border-radius: 12px;
+    height: 2rem;
+    width: 70%;
+    background-color: rgb(248, 248, 248);
+    border: none;
+}
+
+.send-button { 
+    background-color: rgb(52, 69, 85);
+    height: 2.2rem;
+    width: 20%;
+    border-radius: 12px;
+    color: rgb(255, 255, 255);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    
+}
