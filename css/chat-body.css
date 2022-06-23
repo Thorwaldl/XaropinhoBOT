@@ -17,11 +17,23 @@
     text-align: justify;
 }
 
+.mensagem-audio {
+    background-color: white;
+    width: 220px;
+    max-width: 260px;
+    padding: 12px;
+    margin: 12px;
+}
+
 .recebido{
     justify-content: flex-start;
 }
 
 .recebido .mensagem{
+    border-radius: 12px 12px 12px 0px
+}
+
+.recebido .mensagem-audio{
     border-radius: 12px 12px 12px 0px
 }
 
@@ -31,6 +43,10 @@
 }
 
 .enviado .mensagem {
+    border-radius: 12px 12px 0px 12px;
+}
+
+.enviado .mensagem-audio {
     border-radius: 12px 12px 0px 12px;
 }
 
