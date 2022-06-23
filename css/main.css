@@ -12,8 +12,6 @@ header {
     justify-content: center;
     align-items: center;
     background-image: linear-gradient( rgb(255, 224, 184), rgb(255, 190, 104));
-    height: 100%;
-    width: 100%;
 }
 
 .chatbot-box {

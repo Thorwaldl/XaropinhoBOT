@@ -3,7 +3,7 @@
 
 .footer-chat {
     background-color: rgb(9, 4, 20);
-    padding: 12px;
+    padding: 16px;
     border-bottom-left-radius: 24px;
     border-bottom-right-radius: 24px;
     display: flex;
@@ -11,16 +11,22 @@
 }
 
 .text-input { 
-    border-radius: 12px;
-    height: 2.5rem;
+    border-radius: 8px;
+    height: 2rem;
     width: 70%;
-    background-color: rgb(248, 248, 248);
-    border: none;
+    background-color: rgb(252, 249, 249);
+    border: 2px solid rgb(250, 165, 68);
+    outline: none;
+}
+
+.text-input:focus {
+    border: 2px solid rgb(255, 104, 17);
 }
 
 .send-button { 
     background-color: rgb(52, 69, 85);
-    height: 2.5rem;
+    cursor: pointer;
+    height: 2.4rem;
     width: 20%;
     border-radius: 12px;
     color: rgb(255, 255, 255);
@@ -35,4 +41,14 @@
     padding-right: 1rem;
     margin-left: 1rem;
     margin-right: 1rem;
+}
+
+.send-button:hover {
+    color: rgb(255, 104, 17);
+    background-color: rgb(3, 11, 19);
+    border: 2px solid rgb(255, 104, 17);
+}
+
+.enviar-texto {
+    margin-left: 4px;
 }
