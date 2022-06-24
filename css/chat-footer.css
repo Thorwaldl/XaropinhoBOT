@@ -2,7 +2,7 @@
 
 
 .footer-chat {
-    background-color: rgb(9, 4, 20);
+    background-color: #141E27;
     padding: 16px;
     border-bottom-left-radius: 24px;
     border-bottom-right-radius: 24px;
@@ -14,22 +14,23 @@
     border-radius: 8px;
     height: 2rem;
     width: 70%;
-    background-color: rgb(252, 249, 249);
-    border: 2px solid rgb(52, 69, 85);
+    background-color: #EEEDDE;
+    border: 2px solid #203239;
     outline: none;
 }
 
 .text-input:focus {
-    border: 2px solid rgb(255, 104, 17);
+    border: 2px solid #ddd871;
 }
 
 .send-button { 
-    background-color: rgb(52, 69, 85);
+    background-color: #141E27;
     cursor: pointer;
     height: 2.4rem;
     width: 20%;
     border-radius: 12px;
-    color: rgb(255, 255, 255);
+    border: 2px solid #3e4c52;
+    color: #EEEDDE;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     display: flex;
@@ -44,9 +45,9 @@
 }
 
 .send-button:hover {
-    color: rgb(255, 104, 17);
-    background-color: rgb(3, 11, 19);
-    border: 2px solid rgb(255, 104, 17);
+    color: #ddd871;
+    background-color: #141E27;
+    border: 2px solid #ddd871;
 }
 
 .enviar-texto {

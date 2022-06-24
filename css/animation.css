@@ -4,20 +4,6 @@
     animation-duration: 1s;
 }
 
-.chat-rotation {
-    animation-name: rotation;
-    animation-duration: 7s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
-}
-
-.bounce-animation {
-    animation-name: bounce;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
-}
-
 @keyframes chat-slide {
     from{
         opacity: 0;
@@ -30,6 +16,14 @@
     
 }
 
+.chat-rotation {
+    animation-name: rotation;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+
 @keyframes rotation {
     from{
         transform: rotate(0deg);
@@ -37,6 +31,13 @@
     to{
         transform: rotate(359deg);
     }
+}
+
+.bounce-animation {
+    animation-name: bounce;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
 }
 
 @keyframes bounce {
@@ -86,3 +87,25 @@
         height: 30%;
     }
 }
+
+.background-animation {
+    animation: pulse;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    background: linear-gradient(-45deg, #ee9d52, #e7cd3c, #fde578);
+	background-size: 400% 400%;
+	height: 100vh;
+}
+
+@keyframes pulse {
+    0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+  }

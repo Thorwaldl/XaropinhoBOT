@@ -1,5 +1,5 @@
 .chat-body{
-    background-color: #c9daff;
+    background-color: #E0DDAA;
     max-height: clamp(280px, 380px, 800px);
     overflow: auto;
 }
@@ -9,7 +9,8 @@
 }
 
 .mensagem{
-    background-color: white;
+    background-color: #EEEDDE;
+    color: #141E27;
     padding: 12px;
     margin: 12px;
     width: fit-content;
@@ -18,7 +19,8 @@
 }
 
 .mensagem-audio {
-    background-color: white;
+    background-color: #EEEDDE;
+    color: #141E27;
     width: 220px;
     max-width: 260px;
     padding: 12px;
