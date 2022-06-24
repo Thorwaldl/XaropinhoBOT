@@ -40,23 +40,49 @@
 }
 
 @keyframes bounce {
-    from{
+    0%{
         transform: translateY(0px);
-        width: 60%;
+        width: 70%;
         height: 30%;
     }
     10%{
-        transform: translateY(-200px);
+        transform: translateY(0px);
+        width: 80%;
+        height: 25%;
 
     }
-    30%{
+    25%{
+        transform: translateY(0px);
+        width: 85%;
+        height: 15%;
+
+    }
+    35%{
         transform: translateY(-200px);
+        width: 50%;
+        height: 35%;
+
+    }
+    50%{
+        transform: translateY(-240px);
         width: 30%;
         height: 80%;
     }
-    to{
+    65%{
         transform: translateY(0px);
-        width: 60%;
+        width: 30%;
+        height: 35%;
+
+    }
+    85%{
+        transform: translateY(0px);
+        width: 50%;
+        height: 25%;
+
+    }
+    100%{
+        transform: translateY(0px);
+        width: 70%;
         height: 30%;
     }
 }
