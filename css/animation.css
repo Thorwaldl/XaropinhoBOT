@@ -1,0 +1,62 @@
+
+.chat-animation {
+    animation-name: chat-slide;
+    animation-duration: 1s;
+}
+
+.chat-rotation {
+    animation-name: rotation;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.bounce-animation {
+    animation-name: bounce;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes chat-slide {
+    from{
+        opacity: 0;
+        margin-top: 100%;
+    }
+    to{
+        opacity: 1;
+        margin-top: 0%;
+    }
+    
+}
+
+@keyframes rotation {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(359deg);
+    }
+}
+
+@keyframes bounce {
+    from{
+        transform: translateY(0px);
+        width: 60%;
+        height: 30%;
+    }
+    10%{
+        transform: translateY(-200px);
+
+    }
+    30%{
+        transform: translateY(-200px);
+        width: 30%;
+        height: 80%;
+    }
+    to{
+        transform: translateY(0px);
+        width: 60%;
+        height: 30%;
+    }
+}

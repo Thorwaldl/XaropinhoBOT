@@ -10,73 +10,75 @@
     <link rel="stylesheet" type="text/css" href="../css/chat-header.css">
     <link rel="stylesheet" type="text/css" href="../css/chat-footer.css">
     <link rel="stylesheet" type="text/css" href="../css/chat-body.css">
+    <link rel="stylesheet" type="text/css" href="../css/animation.css">
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 </head>
 
-<body class="chatbot-container">
-    <div class="chatbot-box">
-        <header class="header">
-            <img class="profile-image" src="../assets/xaropinho.png" alt="">
-            <div class="column">
-                <h1 class="title">
-                    Xaropinho BOT
-                </h1>
-                <div class="online">
-                    <div class="online-icon"></div>
-                    <h1 class="online-text">online</h1>
+<body>
+    <div class="chatbot-container">
+        <div class="chatbot-box bounce-animation">
+            <header class="header">
+                <img class="profile-image" src="../assets/xaropinho.png" alt="">
+                <div class="column">
+                    <h1 class="title">
+                        Xaropinho BOT
+                    </h1>
+                    <div class="online">
+                        <div class="online-icon"></div>
+                        <h1 class="online-text">online</h1>
+                    </div>
                 </div>
-            </div>
-        </header>
+            </header>
+        
+            <div class="chat-body">
+                <div class="container-mensagem recebido">
+                    <div>
+                        <p class="mensagem">Lorem Ipsum is simply dummy text of the printing and 
+                            typesetting industry. Lorem Ipsum has been the industry's standard dummy
+                            text ever since the 1500s, when an unknown printer took a galley of type
+                            and scrambled it to make a type specimen book. It has survived not only
+                            five centuries, but also the leap into electronic typesetting, remaining
+                            essentially unchanged. </p>
+                    </div>     
+                </div>
+                <div class="container-mensagem recebido">
+                    <div>
+                        <p class="mensagem">Texto de exemplo</p>
+                    </div>     
+                </div>
+                
+                <div class="container-mensagem enviado">
+                    <div>
+                        <p class="mensagem">Olá xaropinho, como você está? Manda o audio do CAVALO!</p>
+                    </div>     
+                </div>  
     
-        <div class="chat-body">
-            <div class="container-mensagem recebido">
-                <div>
-                    <p class="mensagem">Lorem Ipsum is simply dummy text of the printing and 
-                        typesetting industry. Lorem Ipsum has been the industry's standard dummy
-                        text ever since the 1500s, when an unknown printer took a galley of type
-                        and scrambled it to make a type specimen book. It has survived not only
-                        five centuries, but also the leap into electronic typesetting, remaining
-                        essentially unchanged. </p>
-                </div>     
-            </div>
-            <div class="container-mensagem recebido">
-                <div>
-                    <p class="mensagem">Texto de exemplo</p>
-                </div>     
-            </div>
-            
-            <div class="container-mensagem enviado">
-                <div>
-                    <p class="mensagem">Olá xaropinho, como você está? Manda o audio do CAVALO!</p>
-                </div>     
-            </div>  
-
-            <div class="container-mensagem recebido">
-                <audio class="mensagem-audio" autoplay="autoplay" controls="controls">
-                    <source src="https://www.myinstants.com/media/sounds/cavalo.mp3" type="audio/mp3" />
-                    seu navegador não suporta HTML5
-                </audio>
-            </div>
-
-            <div class="container-mensagem recebido">
-                <div class="mensagem">
-                    <img src="https://c.tenor.com/ZSrJrkIg5gcAAAAC/horse-cavalo.gif" alt="CAVALO" style="width:120px;height:120px;">
-                    <p>CAVALO!</p>
-                </div>     
-            </div>
+                <div class="container-mensagem recebido">
+                    <audio class="mensagem-audio" autoplay="autoplay" controls="controls">
+                        <source src="https://www.myinstants.com/media/sounds/cavalo.mp3" type="audio/mp3" />
+                        seu navegador não suporta HTML5
+                    </audio>
+                </div>
     
-        </div>
-    
-        <div class="footer-chat">
-            <input class="text-input" type="text" placeholder="Digite uma mensagem.." />
-            <button class="send-button">
-                <i class="material-icons" style="font-size:20px;">send</i>
-                <span class="enviar-texto">Enviar</span>
-            </button>
+                <div class="container-mensagem recebido">
+                    <div class="mensagem">
+                        <img src="https://c.tenor.com/ZSrJrkIg5gcAAAAC/horse-cavalo.gif" alt="CAVALO" style="width:120px;height:120px;">
+                        <p>CAVALO!</p>
+                    </div>     
+                </div>
+        
+            </div>
+        
+            <div class="footer-chat">
+                <input class="text-input" type="text" placeholder="Digite uma mensagem.." />
+                <button class="send-button">
+                    <i class="material-icons" style="font-size:20px;">send</i>
+                    <span class="enviar-texto">Enviar</span>
+                </button>
+            </div>
         </div>
     </div>
-    
 </body>
 
 </html>
