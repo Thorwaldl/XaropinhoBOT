@@ -28,6 +28,7 @@ html, body, header {
 
 .header-home h3{
     margin: 0;
+    padding-left: 10px;
 }
 
 .header-link{
@@ -71,6 +72,7 @@ html, body, header {
     display: flex;
     flex-direction: column;
     padding: 4rem;
+    font-size: 1.4rem;
 }
 
 .sobre-info {
@@ -79,7 +81,6 @@ html, body, header {
     color: #141E27;
     justify-content: space-between;
 }
-
 
 .sobre-texto{
     text-align: justify;
