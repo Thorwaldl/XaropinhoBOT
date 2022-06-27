@@ -93,7 +93,7 @@
     animation-duration: 8s;
     animation-iteration-count: infinite;
     animation-timing-function: ease;
-    background: linear-gradient(-45deg, #ee9d52, #e7cd3c, #fde578);
+    background: linear-gradient(-45deg, #ee9d52, #e7cd3c, #7881fd);
 	background-size: 400% 400%;
 	height: 100vh;
 }
@@ -107,5 +107,25 @@
 	}
 	100% {
 		background-position: 0% 50%;
+	}
+  }
+
+
+.xaropinho-gritando-animation {
+    animation: xaropinho-grito;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+}
+
+@keyframes xaropinho-grito {
+    0% {
+		transform: translateX(-20px);
+	}
+	50% {
+		transform: translateX(0px);
+	}
+	100% {
+		transform: translateX(-20px);
 	}
   }
