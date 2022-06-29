@@ -90,6 +90,11 @@ html {
     flex-direction: column;
     padding: 4rem;
     font-size: 1.4rem;
+    color: #141E27;
+}
+
+.sobre h1 {
+    margin: 0;
 }
 
 .sobre-info {

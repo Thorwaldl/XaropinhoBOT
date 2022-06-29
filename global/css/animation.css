@@ -94,7 +94,7 @@
     animation-iteration-count: infinite;
     animation-timing-function: ease;
     background: linear-gradient(-45deg, #ec2b2b,#ee9d52, #e7cd3c, #535ffd);
-	background-size: 400% 400%;
+	background-size: 500% 500%;
 	height: 100vh;
 }
 
